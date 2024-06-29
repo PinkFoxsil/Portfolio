@@ -1,4 +1,5 @@
 .page {
+  margin: 0 auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(75, 75, 75);
   font-size: 30px;
@@ -8,7 +9,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   padding: 20px;
   box-sizing: border-box;
   background-color: rgb(235, 242, 255);
@@ -162,4 +162,7 @@
 
 .contacts__tag:hover {
   color: rgb(255, 180, 255);
+}
+
+@media (min-width: 990px) {
 }
